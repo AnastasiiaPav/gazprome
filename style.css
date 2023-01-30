@@ -1,0 +1,538 @@
+body{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+           /* font-family:Ubuntu, sans-serif;  */
+     font-family: Open Sans, sans-serif;
+    }
+    
+    p, 
+    h1, 
+    h2, 
+    h3, 
+    h4,
+    h5,
+    h6{
+       margin: 0;
+    }
+    
+    img{
+       display: block;
+    }
+    
+    li {
+        list-style-type: none;
+      }
+    
+      ul{
+        margin: 0;
+      }
+    
+    
+    .header-logo{
+        display: flex;
+        justify-content: space-between;
+       align-items: baseline;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       margin-right: 10px;
+       margin-left: 10px;
+    }
+    
+    .gaz-logo{
+        width: 114px;
+    }
+    
+    .min-rf{
+        width: 114px;
+    }
+    
+    .header-section{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .header-title{
+        font-weight: 700;
+        font-size: 1.85;
+        /* font-family: Open Sans, sans-serif; */
+        margin-bottom: 20px;
+        
+        /* @media (max-width: 800px) {
+         font-weight: 900;
+         font-size: 2;
+         margin-right:100px;
+          } */
+    }
+    
+    @media only screen
+    and (min-width: 900px) {
+        .preview{
+            margin-left: auto;
+            margin-right: auto;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+    
+        .video{
+            width: 600px;
+        }
+    
+       .header-title{
+        font-weight: 900;
+        display: flex;
+        font-size: xxx-large;
+        justify-content: space-evenly;
+    
+       }
+    
+       .header-text{
+        display: flex;
+        font-size: x-large;
+        justify-content: space-evenly;
+       }
+    
+       .gaz-logo{
+        width: 180px;
+    }
+    
+    .min-rf{
+        width: 180px;
+    }
+    
+    .main-title{
+      font-size: x-large;
+      width:auto ;
+      display: flex;
+      justify-content: center;
+      display: none;
+    }
+    
+    .forma{
+        display: flex;
+        
+    }
+    
+    .main-form{
+        display: inline-flex;
+        width: 550px;
+    }
+    
+    .form-input{
+        flex-direction: column;
+        width: 450px;
+    height: 400px;
+        align-items: center;
+        border-bottom: #2D344E;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.3), -23px 0 20px -23px rgba(0,0,0,0.8), 23px 0 20px -23px rgba(0,0,0,0.8), 0 0 40px rgba(0,0,0,0.1) inset;   }
+    
+    .input-name{
+        width: 100%;
+    }
+    
+    .divForVideo{
+        display: block;
+        width: 460px;
+    }
+    
+    .benefits-set{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .forDecoratoin{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .make{
+       margin: 20px;
+       padding: 20px;
+    }
+    
+    .benefits{
+        padding: 20px;
+        margin-left: 20px;
+    }
+    
+    .benefits-title{
+        padding: 15px;
+        display: contents;
+    }
+    
+    .deration-about{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .photo-gaz{
+        width: 520px;
+        height: auto;
+    }
+    
+    .forimage{
+        width: 600px;
+        margin-right: 20px;
+    }
+    
+    .about-us-signat{
+       display: table-caption;
+    }
+    
+    .decoration-aboutus{
+        width: 600px;
+    }
+    
+    .devidents-photo{
+        display: flex;
+    }
+    
+    .devidents{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .projects-set{
+        display: flex;
+    } 
+    .sibir{
+     width: 550px;
+    }
+    .sevPotok{
+        width: 550px; 
+    }
+    
+    .potok{
+        width: 550px; 
+    }
+    
+    .logo-set{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .benefit-logo{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .last-logo{
+        width: 114px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .decoration-money{
+        display: flex;
+    }
+    
+    }
+    
+    .video{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        height: 400px;
+    
+    }
+    
+    .divForVideo{
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+       display: flex;
+       justify-content: center;
+    }
+    
+    
+    .main-form{
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main-title{
+        font-weight: 900;
+        width: auto;
+        margin-left: 15px;
+        
+         font-family:Ubuntu, bolt; 
+    }
+    
+    .form-input{
+       margin-left: auto;
+       margin-right: auto;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    
+    placeholder{
+        font-size: medium;
+    }
+    
+    .input-name{
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        font-size: 400;
+        width: 256px;
+        font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    }
+    
+    
+    .button-submit{
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: Open Sans, sans-serif;
+        color: white;
+        border: none;
+        width: 224px;
+        height: 44px;
+        border-radius: 4px;
+        background-color: rgba(73, 133, 255, 1);
+    }
+    
+    
+    
+    .button-submit:hover,
+    .button-submit:focus{
+        background-color: white;
+        color:  rgba(73, 133, 255, 1);
+    }
+    
+    .form-text{
+        font-weight: 50;
+        width: 60%;
+        font-size: x-small;
+      
+        font-size: 0.75;
+        opacity: 0.5;
+        line-height: 1.25;
+        font-family:Ubuntu, sans-serif;;
+    }
+    
+    .benefits{
+        /* margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-left: 10px; */
+        
+    color: white;
+        background-color: #2D344E;
+        
+    }
+    
+    .benefits-title{
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-left: 10px;
+        font-family: Ubuntu, sans-serif;
+        font-size: 30px;
+        /* width: 288px; */
+        font-weight: 700;
+        line-height: 1.37;
+    
+        margin-bottom: 32px;
+        padding-top: 32px;
+    }
+    
+    .img-hero{
+        width: 30px;
+        margin-right: 5px;
+    }
+    
+    .div-img{
+        margin-top: 20px;
+        display: flex;
+    align-items: flex-start;
+    }
+    
+    .benefits-text{
+        /* font: 16px; */
+        line-height: 1.35;
+        width: 80%;
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+    
+    .make{
+        background-color: #4290FC;
+        color: white;
+    }
+    
+    /* .make-title{
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.37;
+    } */
+    
+    .make-text{
+        font-size: 18px;
+    }
+    
+    .make-text:last-child{
+        margin-bottom: 0;
+        padding-bottom: 35px;
+    }
+    
+    .photo-gaz{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    .about-us-title{
+        margin-bottom: 0;
+        
+    }
+    
+    .about-us-signat{
+        margin-right: auto;
+        margin-left: auto;
+        width: 288px;
+        margin-bottom: 24px;
+    }
+    
+    .about-us-text{
+        margin-bottom: 10px;
+        line-height: 1.62;
+        size: 16px;
+        font-family: Open Sans, sans-serif
+    }
+    
+    .about-money{
+        background-color: #2D344E;
+        padding: 20px;
+    }
+    
+    .form-money{
+        background-color: white;
+    }
+    
+    .devident-photo{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .devidents-title{
+        font-weight: 500px;
+        display: flex;
+        align-items: center;
+        font-size: xx-large;
+    }
+    
+    .sibir{
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        color: white;
+        /* width: 320px; */
+        height: 320px;
+        background-size: cover;
+    background-image: url(../img/silaSibiri.jpg);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .project-name{
+        margin-top: 10px;
+        font-size: xx-large;
+    }
+    
+    .project-text{
+        font-size: x-large;
+    }
+    
+    .sevPotok{
+        margin-left: auto;
+        margin-right: auto;
+    
+        color: white;
+    
+        /* width: 320px; */
+        height: 320px;
+        background-size: cover;
+    background-image: url(../img/SevPotok.jpg);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .potok{
+        margin-left: auto;
+        margin-right: auto;
+    
+        color: white;
+    
+        
+        /* width: 320px; */
+        height: 320px;
+        background-size: cover;
+    background-image: url(../img/turPotok.jpg);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .logo-set{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .benefit-logo{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .data{
+        width: 100%;
+    
+    }
+    
+    .project-title{
+        font-size: xx-large;
+    }
+    
+    .last-logo{
+        display: flex;
+        justify-content: center;
+    }
+    
