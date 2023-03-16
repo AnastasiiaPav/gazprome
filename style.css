@@ -27,6 +27,10 @@ body{
       ul{
         margin: 0;
       }
+
+    header{
+        margin: 20px;
+    }
     
     
     .header-logo{
@@ -75,6 +79,8 @@ body{
            display: flex;
            justify-content: center;
            align-items: center;
+           padding-left: 50px;
+           padding-right: 50px;
         }
     
         .video{
@@ -135,7 +141,7 @@ body{
     
     .divForVideo{
         display: block;
-        width: 460px;
+        width: 90%;
     }
     
     .benefits-set{
@@ -248,7 +254,7 @@ body{
         padding: 10px;
         margin-left: auto;
         margin-right: auto;
-       display: flex;
+       /* display: flex; */
        justify-content: center;
     }
     
@@ -266,9 +272,10 @@ body{
     }
     
     .main-title{
-        font-weight: 900;
+        /* font-weight: 900;
         width: auto;
-        margin-left: 15px;
+        margin-left: 15px; */
+        color: black;
         
          font-family:Ubuntu, bolt; 
     }
