@@ -252,7 +252,7 @@ body{
     
     .divForVideo{
         padding: 10px;
-        margin-left: auto;
+        margin-left: 25px;
         margin-right: auto;
        /* display: flex; */
        justify-content: center;
@@ -489,7 +489,7 @@ body{
         height: 320px;
         background-size: cover;
     /* background-image: url(../img/SevPotok.jpg); */
-    background-image: url(./img/SevPotok.jpg);
+    background-image: url(../gazprome/img/SevPotok.jpg);
     
     display: flex;
     flex-wrap: wrap;
