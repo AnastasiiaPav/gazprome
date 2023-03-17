@@ -463,7 +463,7 @@ body{
         /* width: 320px; */
         height: 320px;
         background-size: cover;
-    background-image: url(../img/silaSibiri.jpg);
+    background-image: url(./img/silaSibiri.jpg);
     
     display: flex;
     flex-wrap: wrap;
@@ -488,7 +488,8 @@ body{
         /* width: 320px; */
         height: 320px;
         background-size: cover;
-    background-image: url(../img/SevPotok.jpg);
+    /* background-image: url(../img/SevPotok.jpg); */
+    background-image: url(./img/SevPotok.jpg);
     
     display: flex;
     flex-wrap: wrap;
@@ -505,7 +506,7 @@ body{
         /* width: 320px; */
         height: 320px;
         background-size: cover;
-    background-image: url(../img/turPotok.jpg);
+    background-image: url(./img/turPotok.jpg);
     
     display: flex;
     flex-wrap: wrap;
