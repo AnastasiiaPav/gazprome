@@ -114,7 +114,8 @@ body{
       width:auto ;
       display: flex;
       justify-content: center;
-      display: none;
+      /* display: none; */
+      margin-left: 20px;
     }
     
     .forma{
@@ -276,7 +277,8 @@ body{
         width: auto;
         margin-left: 15px; */
         color: black;
-        
+
+        margin-left: 20px;
          font-family:Ubuntu, bolt; 
     }
     

@@ -40,8 +40,8 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen class="video"></iframe>
       </div>
-      <h2 class="main-title">Начните зарабатывать на государственном газе!</h2>
-      <div class="form-input">
+      <div class="form-input" id="yacor">
+        <h2 class="main-title">Начните зарабатывать на государственном газе!</h2>
         <div class="form-group">
           <input class="input-name" type="text" class="form-control" id="name" placeholder="Имя"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$" required />
@@ -56,7 +56,7 @@
           <input type="tel" class="input-name" id="tel" placeholder="+7(777)77-77-77"
             pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" minlength="8" maxlength="11" required />
         </div>
-        <button class="button-submit" onclick="sendMail()">Submit</button>
+        <button class="button-submit" onclick="sendMail()">Подать заявку</button>
       </div>
 
     </section>
@@ -242,7 +242,7 @@
         <form method="post" class="main-form">
           <img src="https://neotechno.site/gaz-platform/images/logo.png" alt="logo-gaz" class="last-logo" />
           <div class="form-input">
-            <h2>Начните зарабатывать на государственном газе!</h2>
+            <h2 class="main-title">Начните зарабатывать на государственном газе!</h2>
             <div class="form-group">
               <input class="input-name" type="text" class="form-control" id="name" placeholder="Имя"
                 pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$" required />
@@ -258,7 +258,7 @@
               <input type="tel" class="input-name" id="tel" placeholder="+7(777)77-77-77"
                 pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" minlength="8" maxlength="11" required />
             </div>
-            <button class="button-submit" onclick="sendMail()">Submit</button>
+            <button class="button-submit" onclick="sendMail()">Подать заявку</button>
           </div>
           <p class="form-text">
             Нажимая кнопку, я принимаю клиентское соглашение
