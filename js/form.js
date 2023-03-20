@@ -12,8 +12,8 @@ function sendMail() {
   
       emailjs.send(serviceID, templateID, params)
       .then(res=>{
-          document.getElementById("name").value = "";
-          document.getElementById("email").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
         document.getElementById("tel").value = "",
         document.getElementById("fullname").value = "",
         //   document.getElementById("message").value = "";
@@ -22,5 +22,4 @@ function sendMail() {
   
       })
       .catch(err=>console.log(err));
-  
   }
